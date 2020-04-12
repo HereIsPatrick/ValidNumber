@@ -1,5 +1,5 @@
 # ValidNumber
-Leedcode Valid Number 
+
 
 Validate if a given string can be interpreted as a decimal number.
 
@@ -29,3 +29,8 @@ Positive/negative sign - "+"/"-"
 Decimal point - "."
 Of course, the context of these characters also matters in the input.
 ```
+#Solution
+![alt text](./images/draft_statemachine.jpeg)
+
+I thought it was gonna be complicated. but it's not.
+I used DFA(State Machine) to solve it.
